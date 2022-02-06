@@ -196,7 +196,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
     padding: 126px 0 141px 0;
 }
 
-.main{
+.first__section{
     position: relative;
 }
 
@@ -348,4 +348,142 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
     .body-left__nav{
         margin-left: 10px;
     }
+}
+
+.two__section{
+    background: #E5E5E5;
+}
+.two__section_container{
+    padding: 137px 0 120px 0;
+}
+.two__section-title{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 129%;
+    text-align: center;
+    letter-spacing: 0.18em;
+    color: #000000;
+    margin-bottom: 10px;
+}
+.two__section-line{
+    text-align: center;
+}
+.two__section-content{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 44px 8.5px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.two__section-content__body{
+    flex: 0 1 25%;
+    padding: 10px 8.5px;
+}
+.two__section__body-img{
+    position: relative;
+}
+
+.section-content__body-discount{
+    position: absolute;
+    bottom: 25px;
+    right: 40px;
+
+    span{
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 130.19%;
+        color: #232323;
+    }
+}
+
+._disc{
+    position: absolute;
+    bottom: 33px;
+    right: 40px;
+}
+
+._disc2{
+    position: absolute;
+    bottom: 25px;
+    right: 30px;
+}
+
+.section-bottom__img-dots{
+    text-align: center;
+}
+
+.three__section{}
+.three__section-iner{
+    background: #E5E5E5;
+}
+.three__section_container{
+    text-align: center;
+}
+.three__section__fossil{
+    padding: 109px 0;
+    img{
+        max-width: 100%;
+    }
+}
+
+.three__section-bottom{
+    background: #ECB328;
+    margin-top: -195px;
+    min-height: 179px;
+}
+.section-bottom__discontoff{}
+.discontoff__content{
+    display: inline-block;
+    padding: 26px 45px;
+    background: #ECB328;
+    border-radius: 50%;
+    margin-top: -30px;
+}
+.discontoff_discont{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 150%;
+    text-align: center;
+    color: #232323;
+
+}
+.discontoff__text{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 150%;
+    text-align: center;
+    color: #313131;
+}
+
+@media (max-width:750px) {
+   .discontoff_discont{
+       font-size: 28px;
+   } 
+
+   .discontoff__text{
+       font-size: 16px;
+   }
+
+   .discontoff__content{
+    margin-top: 0px;
+   }
+}
+
+@media (max-width:520px) {
+    .discontoff__content{
+        padding: 16px 25px;
+
+        margin-top: 30px;
+    }
+
+
 }
