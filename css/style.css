@@ -88,6 +88,18 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0 15px;
 }
 
+._title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 129%;
+  text-align: center;
+  letter-spacing: 0.18em;
+  color: #000000;
+  margin-bottom: 10px;
+}
+
 ._ibg {
   position: relative;
 }
@@ -398,18 +410,6 @@ h1, h2, h3, h4, h5, h6 {
   padding: 137px 0 120px 0;
 }
 
-.two__section-title {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 48px;
-  line-height: 129%;
-  text-align: center;
-  letter-spacing: 0.18em;
-  color: #000000;
-  margin-bottom: 10px;
-}
-
 .two__section-line {
   text-align: center;
 }
@@ -539,5 +539,57 @@ h1, h2, h3, h4, h5, h6 {
     padding: 16px 25px;
     margin-top: 30px;
   }
+}
+
+.four__section_iner {
+  background: #E5E5E5;
+}
+
+.four__section_container {
+  padding: 98px 0px 0px 0px;
+}
+
+.four__section-line {
+  text-align: center;
+}
+
+.four__section-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 75px 0px;
+}
+
+.four__section-content__item {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 25%;
+          flex: 0 1 25%;
+  padding: 0 10px;
+}
+
+.four__section-content__item-img {
+  text-align: center;
+}
+
+.four__section-content__item-text {
+  padding: 19px 0px 67px 0px;
+  text-align: center;
+}
+
+.four__section-content__item-text p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 150%;
+  color: #000000;
 }
 /*# sourceMappingURL=style.css.map */
