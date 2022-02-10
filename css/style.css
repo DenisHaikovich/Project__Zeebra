@@ -592,4 +592,126 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 150%;
   color: #000000;
 }
+
+.five__section {
+  background: #E5E5E5;
+}
+
+.five__section-iner__top {
+  background: #fff;
+  margin-bottom: 124px;
+}
+
+.five__section_container {
+  padding: 82px 0px 91px 0px;
+}
+
+.five__section-title span {
+  color: #ECB328;
+}
+
+.five__section-line {
+  text-align: center;
+}
+
+.five__section-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding-top: 62px;
+}
+
+.five__section-content__img {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 50%;
+          flex: 0 1 50%;
+  text-align: center;
+}
+
+.five__section-content__item {
+  position: relative;
+  max-width: 85%;
+  background: #ECB328;
+  margin: 0 auto;
+}
+
+.five__section-content__item img {
+  max-width: 100%;
+  opacity: 0.2;
+}
+
+._sc-right {
+  background: #232323;
+}
+
+._sc-right img {
+  opacity: 0.2;
+}
+
+.section-content__img-text {
+  width: 100%;
+  position: absolute;
+  top: 40%;
+  left: 0;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 129%;
+  letter-spacing: 0.135em;
+  color: #000000;
+}
+
+._sc-right-text {
+  width: 100%;
+  position: absolute;
+  top: 40%;
+  left: 0;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 129%;
+  letter-spacing: 0.135em;
+  color: #FFF;
+}
+
+.five__section-iner__bottom {
+  background: #fff;
+}
+
+@media (max-width: 960px) {
+  .section-content__img-text {
+    font-size: 40px;
+  }
+}
+
+@media (max-width: 810px) {
+  .section-content__img-text {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 610px) {
+  .five__section-content {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .five__section-content__img {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 1 70%;
+            flex: 0 1 70%;
+    padding-top: 20px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
