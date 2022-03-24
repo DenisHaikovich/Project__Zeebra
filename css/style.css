@@ -149,6 +149,18 @@ h1, h2, h3, h4, h5, h6 {
           align-items: center;
 }
 
+.body-left__nav-cataloges {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  position: relative;
+  padding: 10px 10px;
+}
+
 .body-left__nav-cataloges p {
   font-family: Poppins;
   font-style: normal;
@@ -158,11 +170,114 @@ h1, h2, h3, h4, h5, h6 {
   color: #FFFFFF;
 }
 
-.body-left__nav-cataloges p:after {
-  content: ' ^';
+.body-left__nav-cataloges:hover {
+  background: #FFF;
+}
+
+.body-left__nav-cataloges:hover div p {
+  color: #000000;
+}
+
+.body-left__nav-cataloges:hover .click img {
+  display: none;
+}
+
+.body-left__nav-cataloges:hover .menu__wipod {
+  display: block;
+}
+
+.body-left__nav-cataloges:hover .click_top {
+  display: block;
+}
+
+.menu__wipod__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 34px 38px;
+}
+
+.menu__wipod__colum {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 33.33%;
+          flex: 0 1 33.33%;
+}
+
+.menu__wipod__title h4 {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  color: #000000;
+}
+
+.menu__wipod__title:hover h4 {
+  display: inline-block;
+  border-bottom: 1px solid #ECB328;
+}
+
+.menu__wipod-list {
+  padding-top: 15px;
+}
+
+.menu__wipod-link {
+  padding: 0 0 9px 12px;
+  width: 148px;
+}
+
+.menu__wipod-link p {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+}
+
+.menu__wipod-link:hover p {
+  display: inline-block;
+  border-bottom: 1px solid #ECB328;
+}
+
+.click_top {
+  padding-top: 10px;
+  padding-left: 3px;
+  display: none;
+}
+
+.l-men {
+  display: none;
+}
+
+.l-wom {
+  display: none;
+}
+
+.l-kids {
+  display: none;
+}
+
+.men:hover .l-men {
+  display: block;
+}
+
+.wom:hover .l-wom {
+  display: block;
+}
+
+.kids:hover .l-kids {
+  display: block;
 }
 
 .body-left__nav-brands {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
   padding-left: 31px;
 }
 
@@ -175,8 +290,30 @@ h1, h2, h3, h4, h5, h6 {
   color: #FFFFFF;
 }
 
-.body-left__nav-brands p:after {
-  content: '^';
+.menu__wipod {
+  width: 463px;
+  background: #FFF;
+  border: #000000;
+  position: absolute;
+  top: 45px;
+  left: 0;
+  z-index: 8;
+  display: none;
+}
+
+.click {
+  padding-top: 10px;
+  padding-left: 3px;
+}
+
+.body-left__nav-brands:hover .click img {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.body-left__nav-cataloges:hover .click img {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
 }
 
 .header__byrger {
