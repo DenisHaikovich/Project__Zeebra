@@ -143,6 +143,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 
 .menu__wipod__item {
     display: flex;
+    justify-content: space-between;
     padding: 34px 38px;
 }
 
@@ -161,6 +162,22 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
     }
 }
 
+.women{
+    text-align: center;
+}
+
+.l-wom{
+    margin-left: 80px;
+}
+
+.kid{
+    text-align: right;
+}
+
+.l-kids{
+    text-align: right;
+    margin-right: 12px;
+}
 
 .menu__wipod__title:hover{
     h4{

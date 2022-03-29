@@ -194,6 +194,9 @@ h1, h2, h3, h4, h5, h6 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   padding: 34px 38px;
 }
 
@@ -210,6 +213,23 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 18px;
   line-height: 27px;
   color: #000000;
+}
+
+.women {
+  text-align: center;
+}
+
+.l-wom {
+  margin-left: 80px;
+}
+
+.kid {
+  text-align: right;
+}
+
+.l-kids {
+  text-align: right;
+  margin-right: 12px;
 }
 
 .menu__wipod__title:hover h4 {
