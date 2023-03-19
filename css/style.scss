@@ -527,6 +527,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 }
 .two__section_container{
     padding: 137px 0 120px 0;
+    overflow: hidden;
 }
 .two__section-title{
     
@@ -536,15 +537,21 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 }
 .two__section-content{
     display: flex;
-    flex-wrap: wrap;
+    //flex-wrap: wrap;
     padding: 44px 8.5px;
-    align-items: center;
-    justify-content: center;
-    width: 100%;
+    //align-items: center;
+    //justify-content: center;
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    left: 0;
+    transition: ease-in-out 1s;
+    //overflow: hidden;
 }
 .two__section-content__body{
     flex: 0 1 25%;
     padding: 10px 8.5px;
+
 }
 .two__section__body-img{
     position: relative;
